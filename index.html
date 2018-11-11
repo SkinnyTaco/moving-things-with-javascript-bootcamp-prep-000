@@ -13,9 +13,10 @@
       // your code here
       var dodger = document.getElementById('dodger');
       document.addEventListener('keydown', (e) => {
-        
-        if (dodger.style.right > 0) {
-          dodger.style.right = 
+        if (e.which == 38) {
+          if (dodger.style.right > 0) {
+            dodger.style.right = 
+          }
         }
       });
     </script>
